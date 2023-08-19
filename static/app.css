@@ -1,0 +1,40 @@
+html body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.wallpapersafari.com/73/36/kjoK1u.png');
+}
+
+.form-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.generate-btn {
+    background-color: #1DB954;
+    padding: 1em;
+}
+
+.generate-btn:hover {
+    background-color: #158f40;
+}
+
+.generate-btn:disabled {
+    background-color: #158f40;
+}
+
+#prompt-form label {
+    color: white;
+    text-shadow: black 1px 0 5px;
+}
+
+#prompt-form input {
+    font-size: 1em;
+    outline: 0;
+    border: 2px solid #1DB954;
+    border-radius: 10px;
+    padding: 1em;
+}
